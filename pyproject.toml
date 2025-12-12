@@ -3,5 +3,22 @@ name = "finetuningllms-sft"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate==0.22.0",
+    "bitsandbytes==0.41.1",
+    "deeplake==3.9.27",
+    "deepspeed==0.10.1",
+    "neural-compressor===2.2.1",
+    "numpy==1.23.5",
+    "onnx===1.14.1",
+    "openai==0.27.8",
+    "pandas==2.0.3",
+    "peft==0.5.0",
+    "scipy==1.11.2",
+    "tiktoken==0.4.0",
+    "tqdm==4.66.1",
+    "transformers==4.32.0",
+    "trl==0.7.1",
+    "wandb==0.15.8",
+]
